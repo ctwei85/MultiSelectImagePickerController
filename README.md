@@ -5,8 +5,10 @@
 #import "LSYAlbumCatalog.h"
 #import "LSYNavigationController.h"
 #import <AssetsLibrary/AssetsLibrary.h>
+
 2）
 代理：LSYAlbumCatalogDelegate
+
 3）在选择相册点击事件里添加如下代码：
 LSYAlbumCatalog *albumCatalog = [[LSYAlbumCatalog alloc] init];
     albumCatalog.delegate = self;
