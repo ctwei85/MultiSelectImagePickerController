@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F44F184E1DA9E55A00DEE324 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F184D1DA9E55A00DEE324 /* main.m */; };
+		F44F18511DA9E55A00DEE324 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F18501DA9E55A00DEE324 /* AppDelegate.m */; };
+		F44F18541DA9E55A00DEE324 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F18531DA9E55A00DEE324 /* ViewController.m */; };
+		F44F18571DA9E55A00DEE324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44F18551DA9E55A00DEE324 /* Main.storyboard */; };
+		F44F18591DA9E55A00DEE324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44F18581DA9E55A00DEE324 /* Assets.xcassets */; };
+		F44F185C1DA9E55A00DEE324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44F185A1DA9E55A00DEE324 /* LaunchScreen.storyboard */; };
+		F44F18811DA9E65000DEE324 /* LSYAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F18651DA9E65000DEE324 /* LSYAlbum.m */; };
+		F44F18821DA9E65000DEE324 /* LSYAlbumCatalog.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F18671DA9E65000DEE324 /* LSYAlbumCatalog.m */; };
+		F44F18831DA9E65000DEE324 /* LSYAlbumCatalogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F18691DA9E65000DEE324 /* LSYAlbumCatalogCell.m */; };
+		F44F18841DA9E65000DEE324 /* LSYAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F186B1DA9E65000DEE324 /* LSYAlbumCell.m */; };
+		F44F18851DA9E65000DEE324 /* LSYAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F186D1DA9E65000DEE324 /* LSYAlbumModel.m */; };
+		F44F18861DA9E65000DEE324 /* LSYAlbumPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F186F1DA9E65000DEE324 /* LSYAlbumPicker.m */; };
+		F44F18871DA9E65000DEE324 /* LSYAssetPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F18711DA9E65000DEE324 /* LSYAssetPreview.m */; };
+		F44F18881DA9E65000DEE324 /* LSYAssetPreviewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F18731DA9E65000DEE324 /* LSYAssetPreviewItem.m */; };
+		F44F18891DA9E65000DEE324 /* LSYAssetPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F18751DA9E65000DEE324 /* LSYAssetPreviewView.m */; };
+		F44F188A1DA9E65000DEE324 /* LSYDelegateDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F18771DA9E65000DEE324 /* LSYDelegateDataSource.m */; };
+		F44F188B1DA9E65000DEE324 /* LSYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F18791DA9E65000DEE324 /* LSYNavigationController.m */; };
+		F44F188C1DA9E65000DEE324 /* LSYPickerButtomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F187B1DA9E65000DEE324 /* LSYPickerButtomView.m */; };
+		F44F188D1DA9E65000DEE324 /* PhotoCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F187E1DA9E65000DEE324 /* PhotoCollectionCell.m */; };
+		F44F188E1DA9E65000DEE324 /* PreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44F18801DA9E65000DEE324 /* PreviewViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F44F18491DA9E55A00DEE324 /* multiSelectImagePickerControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiSelectImagePickerControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44F184D1DA9E55A00DEE324 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F44F184F1DA9E55A00DEE324 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F44F18501DA9E55A00DEE324 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F44F18521DA9E55A00DEE324 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F44F18531DA9E55A00DEE324 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F44F18561DA9E55A00DEE324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F44F18581DA9E55A00DEE324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F44F185B1DA9E55A00DEE324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F44F185D1DA9E55A00DEE324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44F18641DA9E65000DEE324 /* LSYAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYAlbum.h; sourceTree = "<group>"; };
+		F44F18651DA9E65000DEE324 /* LSYAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYAlbum.m; sourceTree = "<group>"; };
+		F44F18661DA9E65000DEE324 /* LSYAlbumCatalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYAlbumCatalog.h; sourceTree = "<group>"; };
+		F44F18671DA9E65000DEE324 /* LSYAlbumCatalog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYAlbumCatalog.m; sourceTree = "<group>"; };
+		F44F18681DA9E65000DEE324 /* LSYAlbumCatalogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYAlbumCatalogCell.h; sourceTree = "<group>"; };
+		F44F18691DA9E65000DEE324 /* LSYAlbumCatalogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYAlbumCatalogCell.m; sourceTree = "<group>"; };
+		F44F186A1DA9E65000DEE324 /* LSYAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYAlbumCell.h; sourceTree = "<group>"; };
+		F44F186B1DA9E65000DEE324 /* LSYAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYAlbumCell.m; sourceTree = "<group>"; };
+		F44F186C1DA9E65000DEE324 /* LSYAlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYAlbumModel.h; sourceTree = "<group>"; };
+		F44F186D1DA9E65000DEE324 /* LSYAlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYAlbumModel.m; sourceTree = "<group>"; };
+		F44F186E1DA9E65000DEE324 /* LSYAlbumPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYAlbumPicker.h; sourceTree = "<group>"; };
+		F44F186F1DA9E65000DEE324 /* LSYAlbumPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYAlbumPicker.m; sourceTree = "<group>"; };
+		F44F18701DA9E65000DEE324 /* LSYAssetPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYAssetPreview.h; sourceTree = "<group>"; };
+		F44F18711DA9E65000DEE324 /* LSYAssetPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYAssetPreview.m; sourceTree = "<group>"; };
+		F44F18721DA9E65000DEE324 /* LSYAssetPreviewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYAssetPreviewItem.h; sourceTree = "<group>"; };
+		F44F18731DA9E65000DEE324 /* LSYAssetPreviewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYAssetPreviewItem.m; sourceTree = "<group>"; };
+		F44F18741DA9E65000DEE324 /* LSYAssetPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYAssetPreviewView.h; sourceTree = "<group>"; };
+		F44F18751DA9E65000DEE324 /* LSYAssetPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYAssetPreviewView.m; sourceTree = "<group>"; };
+		F44F18761DA9E65000DEE324 /* LSYDelegateDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYDelegateDataSource.h; sourceTree = "<group>"; };
+		F44F18771DA9E65000DEE324 /* LSYDelegateDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYDelegateDataSource.m; sourceTree = "<group>"; };
+		F44F18781DA9E65000DEE324 /* LSYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYNavigationController.h; sourceTree = "<group>"; };
+		F44F18791DA9E65000DEE324 /* LSYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYNavigationController.m; sourceTree = "<group>"; };
+		F44F187A1DA9E65000DEE324 /* LSYPickerButtomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYPickerButtomView.h; sourceTree = "<group>"; };
+		F44F187B1DA9E65000DEE324 /* LSYPickerButtomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYPickerButtomView.m; sourceTree = "<group>"; };
+		F44F187C1DA9E65000DEE324 /* LSYPublicForWechat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYPublicForWechat.h; sourceTree = "<group>"; };
+		F44F187D1DA9E65000DEE324 /* PhotoCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionCell.h; sourceTree = "<group>"; };
+		F44F187E1DA9E65000DEE324 /* PhotoCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionCell.m; sourceTree = "<group>"; };
+		F44F187F1DA9E65000DEE324 /* PreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewViewController.h; sourceTree = "<group>"; };
+		F44F18801DA9E65000DEE324 /* PreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F44F18461DA9E55A00DEE324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F44F18401DA9E55A00DEE324 = {
+			isa = PBXGroup;
+			children = (
+				F44F184B1DA9E55A00DEE324 /* multiSelectImagePickerControllerDemo */,
+				F44F184A1DA9E55A00DEE324 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F44F184A1DA9E55A00DEE324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44F18491DA9E55A00DEE324 /* multiSelectImagePickerControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44F184B1DA9E55A00DEE324 /* multiSelectImagePickerControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F44F18631DA9E65000DEE324 /* MultiSelectUnit */,
+				F44F184F1DA9E55A00DEE324 /* AppDelegate.h */,
+				F44F18501DA9E55A00DEE324 /* AppDelegate.m */,
+				F44F18521DA9E55A00DEE324 /* ViewController.h */,
+				F44F18531DA9E55A00DEE324 /* ViewController.m */,
+				F44F18551DA9E55A00DEE324 /* Main.storyboard */,
+				F44F18581DA9E55A00DEE324 /* Assets.xcassets */,
+				F44F185A1DA9E55A00DEE324 /* LaunchScreen.storyboard */,
+				F44F185D1DA9E55A00DEE324 /* Info.plist */,
+				F44F184C1DA9E55A00DEE324 /* Supporting Files */,
+			);
+			path = multiSelectImagePickerControllerDemo;
+			sourceTree = "<group>";
+		};
+		F44F184C1DA9E55A00DEE324 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F44F184D1DA9E55A00DEE324 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F44F18631DA9E65000DEE324 /* MultiSelectUnit */ = {
+			isa = PBXGroup;
+			children = (
+				F44F18641DA9E65000DEE324 /* LSYAlbum.h */,
+				F44F18651DA9E65000DEE324 /* LSYAlbum.m */,
+				F44F18661DA9E65000DEE324 /* LSYAlbumCatalog.h */,
+				F44F18671DA9E65000DEE324 /* LSYAlbumCatalog.m */,
+				F44F18681DA9E65000DEE324 /* LSYAlbumCatalogCell.h */,
+				F44F18691DA9E65000DEE324 /* LSYAlbumCatalogCell.m */,
+				F44F186A1DA9E65000DEE324 /* LSYAlbumCell.h */,
+				F44F186B1DA9E65000DEE324 /* LSYAlbumCell.m */,
+				F44F186C1DA9E65000DEE324 /* LSYAlbumModel.h */,
+				F44F186D1DA9E65000DEE324 /* LSYAlbumModel.m */,
+				F44F186E1DA9E65000DEE324 /* LSYAlbumPicker.h */,
+				F44F186F1DA9E65000DEE324 /* LSYAlbumPicker.m */,
+				F44F18701DA9E65000DEE324 /* LSYAssetPreview.h */,
+				F44F18711DA9E65000DEE324 /* LSYAssetPreview.m */,
+				F44F18721DA9E65000DEE324 /* LSYAssetPreviewItem.h */,
+				F44F18731DA9E65000DEE324 /* LSYAssetPreviewItem.m */,
+				F44F18741DA9E65000DEE324 /* LSYAssetPreviewView.h */,
+				F44F18751DA9E65000DEE324 /* LSYAssetPreviewView.m */,
+				F44F18761DA9E65000DEE324 /* LSYDelegateDataSource.h */,
+				F44F18771DA9E65000DEE324 /* LSYDelegateDataSource.m */,
+				F44F18781DA9E65000DEE324 /* LSYNavigationController.h */,
+				F44F18791DA9E65000DEE324 /* LSYNavigationController.m */,
+				F44F187A1DA9E65000DEE324 /* LSYPickerButtomView.h */,
+				F44F187B1DA9E65000DEE324 /* LSYPickerButtomView.m */,
+				F44F187C1DA9E65000DEE324 /* LSYPublicForWechat.h */,
+				F44F187D1DA9E65000DEE324 /* PhotoCollectionCell.h */,
+				F44F187E1DA9E65000DEE324 /* PhotoCollectionCell.m */,
+				F44F187F1DA9E65000DEE324 /* PreviewViewController.h */,
+				F44F18801DA9E65000DEE324 /* PreviewViewController.m */,
+			);
+			path = MultiSelectUnit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F44F18481DA9E55A00DEE324 /* multiSelectImagePickerControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44F18601DA9E55A00DEE324 /* Build configuration list for PBXNativeTarget "multiSelectImagePickerControllerDemo" */;
+			buildPhases = (
+				F44F18451DA9E55A00DEE324 /* Sources */,
+				F44F18461DA9E55A00DEE324 /* Frameworks */,
+				F44F18471DA9E55A00DEE324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = multiSelectImagePickerControllerDemo;
+			productName = multiSelectImagePickerControllerDemo;
+			productReference = F44F18491DA9E55A00DEE324 /* multiSelectImagePickerControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F44F18411DA9E55A00DEE324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "lianchuang-hw";
+				TargetAttributes = {
+					F44F18481DA9E55A00DEE324 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F44F18441DA9E55A00DEE324 /* Build configuration list for PBXProject "multiSelectImagePickerControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F44F18401DA9E55A00DEE324;
+			productRefGroup = F44F184A1DA9E55A00DEE324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44F18481DA9E55A00DEE324 /* multiSelectImagePickerControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F44F18471DA9E55A00DEE324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44F185C1DA9E55A00DEE324 /* LaunchScreen.storyboard in Resources */,
+				F44F18591DA9E55A00DEE324 /* Assets.xcassets in Resources */,
+				F44F18571DA9E55A00DEE324 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F44F18451DA9E55A00DEE324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44F18871DA9E65000DEE324 /* LSYAssetPreview.m in Sources */,
+				F44F18891DA9E65000DEE324 /* LSYAssetPreviewView.m in Sources */,
+				F44F18881DA9E65000DEE324 /* LSYAssetPreviewItem.m in Sources */,
+				F44F18541DA9E55A00DEE324 /* ViewController.m in Sources */,
+				F44F18821DA9E65000DEE324 /* LSYAlbumCatalog.m in Sources */,
+				F44F18861DA9E65000DEE324 /* LSYAlbumPicker.m in Sources */,
+				F44F188D1DA9E65000DEE324 /* PhotoCollectionCell.m in Sources */,
+				F44F188B1DA9E65000DEE324 /* LSYNavigationController.m in Sources */,
+				F44F18511DA9E55A00DEE324 /* AppDelegate.m in Sources */,
+				F44F18811DA9E65000DEE324 /* LSYAlbum.m in Sources */,
+				F44F18851DA9E65000DEE324 /* LSYAlbumModel.m in Sources */,
+				F44F18841DA9E65000DEE324 /* LSYAlbumCell.m in Sources */,
+				F44F188A1DA9E65000DEE324 /* LSYDelegateDataSource.m in Sources */,
+				F44F188E1DA9E65000DEE324 /* PreviewViewController.m in Sources */,
+				F44F18831DA9E65000DEE324 /* LSYAlbumCatalogCell.m in Sources */,
+				F44F184E1DA9E55A00DEE324 /* main.m in Sources */,
+				F44F188C1DA9E65000DEE324 /* LSYPickerButtomView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F44F18551DA9E55A00DEE324 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44F18561DA9E55A00DEE324 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F44F185A1DA9E55A00DEE324 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44F185B1DA9E55A00DEE324 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F44F185E1DA9E55A00DEE324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F44F185F1DA9E55A00DEE324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F44F18611DA9E55A00DEE324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = multiSelectImagePickerControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.multiSelectImagePickerControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F44F18621DA9E55A00DEE324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = multiSelectImagePickerControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.multiSelectImagePickerControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F44F18441DA9E55A00DEE324 /* Build configuration list for PBXProject "multiSelectImagePickerControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44F185E1DA9E55A00DEE324 /* Debug */,
+				F44F185F1DA9E55A00DEE324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44F18601DA9E55A00DEE324 /* Build configuration list for PBXNativeTarget "multiSelectImagePickerControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44F18611DA9E55A00DEE324 /* Debug */,
+				F44F18621DA9E55A00DEE324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F44F18411DA9E55A00DEE324 /* Project object */;
+}
