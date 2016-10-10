@@ -26,8 +26,8 @@
     
 4）选择的图片返回的数组
 
--(void)AlbumDidFinishPick:(NSArray *)assets
 
+-(void)AlbumDidFinishPick:(NSArray *)assets
 {
     
     NSMutableArray*arr = [NSMutableArray arrayWithArray:assets];
