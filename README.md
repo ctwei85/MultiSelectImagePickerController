@@ -17,8 +17,8 @@
     albumCatalog.delegate = self;
     
     albumCatalog.toolbarDisplayText = @"发送";//在照片缩略图和预览照片时选择照片完成后显示发送还是完成 可在此处配置修改
-    
-    LSYNavigationController *navigation = [[LSYNavigationController alloc] initWithRootViewController:albumCatalog];
+   
+    LSYNavigationController *navigation = [[LSYNavigationController alloc] initWithRootViewController:albumCatalog];
     
     albumCatalog.maximumNumberOfSelectionMedia = 8;//最多选择8张，可修改
     
