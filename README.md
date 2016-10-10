@@ -27,6 +27,7 @@
 4）选择的图片返回的数组
 
 
+
 -(void)AlbumDidFinishPick:(NSArray *)assets
 {
     
@@ -38,4 +39,5 @@
              
              UIImage * img = [UIImage imageWithCGImage:asset.defaultRepresentation.fullScreenImage];
     }
+
 }
