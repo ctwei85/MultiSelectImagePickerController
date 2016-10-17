@@ -186,7 +186,7 @@
     return cell;
 }
 
--(void)chooseImage:(UITapGestureRecognizer *)recognizer
+/*-(void)chooseImage:(UITapGestureRecognizer *)recognizer
 {
     if (self.maxminumNumber) {
         if (!(self.maxminumNumber>self.assetsSort.count)) {
@@ -228,6 +228,74 @@
     
     self.selectNumbers = (int)self.assetsSort.count;
     
+}*/
+-(void)chooseImage:(UITapGestureRecognizer *)recognizer
+{
+    
+    UIImageView*v = (UIImageView*)recognizer.view;
+    UIImageView*vv =(UIImageView*)[v superview];
+    LSYAlbumCell*cell = (LSYAlbumCell*)[[vv superview]superview];
+    NSIndexPath *indexpath = [_albumView indexPathForCell:cell];//获取cell对应的indexpath;
+    
+    if(self.assetsSort.count<self.maxminumNumber)
+    {//当选中数量小于总限制数
+        [self chooseAgain:cell withIndexPath:indexpath];
+    }else if(self.assetsSort.count>self.maxminumNumber){
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"提示" message:[NSString stringWithFormat:@"最多只能选%d张照片",(int)self.maxminumNumber] delegate:nil cancelButtonTitle:@"确定" otherButtonTitles: nil];
+        [alertView show];
+        return;
+    }else if(self.assetsSort.count==self.maxminumNumber) {
+        //当选中数量==总限制数
+        BOOL isInclude = NO;
+        for(int i=0;i<self.assetsSort.count;i++){
+            NSIndexPath *tmpIndexP = self.assetsSort[i];
+            if([indexpath isEqual:tmpIndexP]){
+                isInclude = YES;
+                break;
+            }
+        }
+        if(isInclude){
+            //已被选中
+            [self chooseAgain:cell withIndexPath:indexpath];
+        }else{
+            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"提示" message:[NSString stringWithFormat:@"最多只能选%d张照片",(int)self.maxminumNumber] delegate:nil cancelButtonTitle:@"确定" otherButtonTitles: nil];
+            [alertView show];
+            return;
+
+        }
+    }
+    
+    
+}
+
+-(void)chooseAgain:(LSYAlbumCell*)cell withIndexPath:(NSIndexPath*)indexpath
+{
+    NSLog(@"设备图片按钮被点击:%ld        %ld",(long)indexpath.section,(long)indexpath.row);
+    cell.model.isSelect = !cell.model.isSelect;
+    if (cell.model.isSelect) {
+        [self.assetsSort addObject:indexpath];
+        [cell.statusView setImage:[UIImage imageNamed:@"photo_selected"]];
+        [UIView animateWithDuration:0.15 delay:0.0 options:UIViewAnimationOptionCurveEaseIn|UIViewAnimationOptionAllowUserInteraction animations:^{
+            cell.statusView.transform = CGAffineTransformMakeScale(0.8, 0.8);
+        } completion:^(BOOL finished) {
+            [UIView animateWithDuration:0.15 delay:0.0 options:UIViewAnimationOptionCurveEaseOut|UIViewAnimationOptionAllowUserInteraction animations:^{
+                cell.statusView.transform = CGAffineTransformMakeScale(1.2, 1.2);
+            } completion:^(BOOL finished) {
+                [UIView animateWithDuration:0.15 delay:0.0 options:UIViewAnimationOptionCurveEaseOut|UIViewAnimationOptionAllowUserInteraction animations:^{
+                    cell.statusView.transform = CGAffineTransformIdentity;
+                } completion:^(BOOL finished) {
+                    
+                }];
+            }];
+        }];
+    }
+    else
+    {
+        [self.assetsSort removeObject:indexpath];
+        [cell.statusView setImage:[UIImage imageNamed:@"photo_unselected"]];
+    }
+    
+    self.selectNumbers = (int)self.assetsSort.count;
 }
 
 
