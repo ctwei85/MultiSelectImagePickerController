@@ -85,47 +85,8 @@
     [self.navigationController popViewControllerAnimated:YES];
     //[self dismissViewControllerAnimated:YES completion:nil];
 }
-/*-(void)selectButtonClick:(UIButton *)selectButton
+-(void)selectButtonClick:(UIButton *)selectButton
 {
-    if(_collectionView.isDecelerating){
-        return;
-    }
-    LSYAlbumModel *model = self.allAssets[_selectedItem];
-    model.isSelect = !model.isSelect;
-    model.indexPath =[NSIndexPath indexPathForItem:_selectedItem inSection:0];
-    self.previewNavBar.selectButton.selected = model.isSelect;
-    if (model.isSelect) {
-        //[self.AlbumCollection selectItemAtIndexPath:model.indexPath animated:NO scrollPosition:UICollectionViewScrollPositionNone];
-        [self.assets addObject:model];
-        //[self.AlbumCollection.delegate collectionView:self.AlbumCollection didSelectItemAtIndexPath:model.indexPath];
-        if (self.delegate &&[self.delegate respondsToSelector:@selector(didSelectModel:)]) {
-            [self.delegate didSelectModel:model];//处理上一页的活动
-        }
-        
-        
-    }
-    else
-    {
-        //[self.AlbumCollection deselectItemAtIndexPath:model.indexPath animated:NO];
-        [self.assets removeObject:model];
-        //[self.AlbumCollection.delegate collectionView:self.AlbumCollection didDeselectItemAtIndexPath:model.indexPath];
-        if (self.delegate && [self.delegate respondsToSelector:@selector(didSelectModel:)]) {
-            [self.delegate didSelectModel:model];//处理上一页的活动
-        }
-    }
-    [self.previewToolBar setSendNumber:(int)self.assets.count/*self.AlbumCollection.indexPathsForSelectedItems.count*/];
-}*/
-    -(void)selectButtonClick:(UIButton *)selectButton
-{
-    /*if (self.maxminumNumber) {
-        if (!(self.maxminumNumber>self.assets.count)) {
-            
-            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"提示" message:[NSString stringWithFormat:@"最多只能选%d张照片",(int)self.maxminumNumber] delegate:nil cancelButtonTitle:@"确定" otherButtonTitles: nil];
-            [alertView show];
-            return;
-        }
-    }*/
-    
     if(_collectionView.isDecelerating){
         return;
     }
